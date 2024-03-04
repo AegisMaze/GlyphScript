@@ -1,0 +1,10 @@
+package com.aegismaze.glyphscript;
+
+enum TokenType {
+
+    CONJURE, TRANSMUTE, DISPEL, CHANT, AUGUR, SUSTAIN,
+    QUANTITY, INCANTATION, GLYPH,
+    ENHANCE, DIMINISH, REPLICATE, FRACTURE,
+    WEAL, WOE, NIL,
+    EOF
+}
